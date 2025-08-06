@@ -1,9 +1,0 @@
-Here are the contents for the file /my-github-io-site/my-github-io-site/folders/folder1/thoughts.txt:
-
-This is a collection of thoughts that inspire and motivate. 
-
-1. "The only limit to our realization of tomorrow is our doubts of today."
-2. "Success is not the key to happiness. Happiness is the key to success."
-3. "Believe you can and you're halfway there."
-4. "What lies behind us and what lies before us are tiny matters compared to what lies within us."
-5. "The future belongs to those who believe in the beauty of their dreams."
