@@ -1,3 +1,55 @@
+/* 自我介紹區塊 */
+.intro {
+    background: #f8f8f8;
+    padding: 1.5em 2em;
+    margin: 1em auto 2em auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* 主內容與側邊欄排版 */
+.container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2em;
+}
+
+main {
+    flex: 2;
+}
+
+.sidebar {
+    flex: 1;
+    background: #f0f4fa;
+    padding: 1.5em 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    min-width: 180px;
+    max-width: 260px;
+}
+.sidebar h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+    color: #333;
+}
+.sidebar ul {
+    list-style: disc inside;
+    padding-left: 0;
+}
+.sidebar li {
+    margin-bottom: 0.7em;
+}
+.sidebar a {
+    color: #1a4e8a;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.sidebar a:hover {
+    color: #d2691e;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;

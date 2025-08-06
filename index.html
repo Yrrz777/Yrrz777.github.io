@@ -10,23 +10,37 @@
     <header>
         <h1>Welcome to My GitHub.io Site</h1>
     </header>
-    <main>
-        <section id="thoughts">
-            <h2><a href="thoughts.html">Thoughts</a></h2>
-            <p>Here you can find various thoughts that inspire and motivate.</p>
-            <!-- Content from folders/folder1/thoughts.txt will be displayed here -->
-        </section>
-        <section id="words">
-            <h2><a href="words.html">Words</a></h2>
-            <p>Explore a collection of words that resonate with you.</p>
-            <!-- Content from folders/folder2/words.txt will be displayed here -->
-        </section>
-        <section id="text">
-            <h2>Additional Text</h2>
-            <p>Discover more information and ideas presented here.</p>
-            <!-- Content from folders/folder3/text.txt will be displayed here -->
-        </section>
-    </main>
+    <section class="intro">
+        <h2>關於我</h2>
+        <p>你好，我是 Eddie，一位熱愛分享想法與文字的人。這個網站紀錄了我的思考、靈感與創作，歡迎交流！</p>
+    </section>
+    <div class="container">
+        <main>
+            <section id="thoughts">
+                <h2><a href="thoughts.html">Thoughts</a></h2>
+                <p>Here you can find various thoughts that inspire and motivate.</p>
+                <!-- Content from folders/folder1/thoughts.txt will be displayed here -->
+            </section>
+            <section id="words">
+                <h2><a href="words.html">Words</a></h2>
+                <p>Explore a collection of words that resonate with you.</p>
+                <!-- Content from folders/folder2/words.txt will be displayed here -->
+            </section>
+            <section id="text">
+                <h2>Additional Text</h2>
+                <p>Discover more information and ideas presented here.</p>
+                <!-- Content from folders/folder3/text.txt will be displayed here -->
+            </section>
+        </main>
+        <aside class="sidebar">
+            <h3>文章列表</h3>
+            <ul>
+                <li><a href="thoughts.html">Thoughts</a></li>
+                <li><a href="words.html">Words</a></li>
+                <!-- 你可以在這裡新增更多文章連結 -->
+            </ul>
+        </aside>
+    </div>
     <footer>
         <p>&copy; 2023 My GitHub.io Site</p>
     </footer>
